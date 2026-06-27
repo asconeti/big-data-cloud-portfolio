@@ -1,0 +1,39 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs / editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.temp
+
+# Spark / Hadoop local artifacts
+metastore_db/
+spark-warehouse/
+derby.log
+
+# Optional large generated outputs
+*.parquet
+*.orc
+
+# Optional: ignore local exports if needed
+# data/
+# outputs/

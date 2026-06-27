@@ -1,0 +1,94 @@
+Informe de validació de l'arxiu consumo_hogar_2024.csv
+=====================================================
+
+1. Rutes
+--------
+Ruta origen HDFS: /aula_M2.858/data/consumo_hogar_2024.csv
+Ruta destí HDFS: /user/jbaigesf/procesado/consumo_hogar_2024_validado.csv
+
+2. Propietats bàsiques de l'arxiu origen
+----------------------------------------
+Permisos: -rw-r--r--
+Factor de replicació: 3
+Propietari: martam
+Grup: hdfs
+Mida (bytes): 711
+Data: 2025-10-20 09:28
+
+3. Capçalera i files de mostra
+------------------------------
+﻿fecha,hora,id_hogar,consumo_kwh,temperatura_ext,region
+2024-01-01,00:00,H001,1.23,8.2,Madrid
+2024-01-01,01:00,H001,1.15,7.9,Madrid
+2024-01-01,00:00,H002,0.95,9.1,Barcelona
+2024-01-01,01:00,H002,0.88,8.7,Barcelona
+
+4. Resultat de la comprovació de l'arxiu copiat
+-----------------------------------------------
+-rw-r--r--   3 jbaigesf students        711 2026-04-06 18:18 /user/jbaigesf/procesado/consumo_hogar_2024_validado.csv
+
+5. Resum d'integritat (fsck)
+----------------------------
+Status: HEALTHY
+Number of data-nodes:	3
+Number of racks:		1
+Total blocks (validated):	1 (avg. block size 711 B)
+Default replication factor:	3
+Average block replication:	3.0
+Missing blocks:		0
+Corrupt blocks:		0
+Missing replicas:		0 (0.0 %)
+
+6. Sortida detallada de fsck sobre l'arxiu copiat
+-------------------------------------------------
+FSCK started by jbaigesf (auth:SIMPLE) from /172.17.58.200 for path /user/jbaigesf/procesado/consumo_hogar_2024_validado.csv at Mon Apr 06 18:18:27 CEST 2026
+
+/user/jbaigesf/procesado/consumo_hogar_2024_validado.csv 711 bytes, replicated: replication=3, 1 block(s):  OK
+0. BP-1495504404-172.17.58.6-1753086652608:blk_1207702650_133963891 len=711 Live_repl=3  [DatanodeInfoWithStorage[172.17.58.6:50010,DS-94d61690-8bae-419c-8424-c5e44bf76713,DISK], DatanodeInfoWithStorage[172.17.58.201:50010,DS-def0af19-c2a5-4be3-bffe-a4a1ace3bfe6,DISK], DatanodeInfoWithStorage[172.17.58.200:50010,DS-269ffbda-b619-40ff-8bb8-b8d6d7acfd8a,DISK]]
+
+
+Status: HEALTHY
+ Number of data-nodes:	3
+ Number of racks:		1
+ Total dirs:			0
+ Total symlinks:		0
+
+Replicated Blocks:
+ Total size:	711 B
+ Total files:	1
+ Total blocks (validated):	1 (avg. block size 711 B)
+ Minimally replicated blocks:	1 (100.0 %)
+ Over-replicated blocks:	0 (0.0 %)
+ Under-replicated blocks:	0 (0.0 %)
+ Mis-replicated blocks:		0 (0.0 %)
+ Default replication factor:	3
+ Average block replication:	3.0
+ Missing blocks:		0
+ Corrupt blocks:		0
+ Missing replicas:		0 (0.0 %)
+ Blocks queued for replication:	0
+
+Erasure Coded Block Groups:
+ Total size:	0 B
+ Total files:	0
+ Total block groups (validated):	0
+ Minimally erasure-coded block groups:	0
+ Over-erasure-coded block groups:	0
+ Under-erasure-coded block groups:	0
+ Unsatisfactory placement block groups:	0
+ Average block group size:	0.0
+ Missing block groups:		0
+ Corrupt block groups:		0
+ Missing internal blocks:	0
+ Blocks queued for replication:	0
+FSCK ended at Mon Apr 06 18:18:27 CEST 2026 in 1 milliseconds
+
+
+The filesystem under path '/user/jbaigesf/procesado/consumo_hogar_2024_validado.csv' is HEALTHY
+
+7. Conclusió
+------------
+The filesystem under path '/user/jbaigesf/procesado/consumo_hogar_2024_validado.csv' is HEALTHY
+L'arxiu s'ha validat correctament, s'ha copiat a la carpeta de processament
+i l'informe recull tant les metadades bàsiques com la comprovació completa
+de la seva integritat a HDFS.

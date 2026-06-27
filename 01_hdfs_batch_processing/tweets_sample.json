@@ -1,0 +1,10 @@
+{"tweet_id": 1, "user": "usuario1", "followers": 150, "retweets": 5, "likes": 10, "tweet": "¡Hola mundo! Este es un tweet de prueba para ver cómo funciona. #prueba #mundo"}
+{"tweet_id": 2, "user": "usuario2", "followers": 300, "retweets": 2, "likes": 7, "tweet": "Los datos son el nuevo petróleo. Analiza, visualiza y actúa. #data #análisis"}
+{"tweet_id": 3, "user": "usuario3", "followers": 500, "retweets": 15, "likes": 20, "tweet": "Un día productivo en la oficina. ¿Alguna vez has tenido un día así? #productividad"}
+{"tweet_id": 4, "user": "usuario4", "followers": 250, "retweets": 10, "likes": 5, "tweet": "¿Sabías que Python es uno de los lenguajes de programación más utilizados? #Python #programación"}
+{"tweet_id": 5, "user": "usuario5", "followers": 100, "retweets": 1, "likes": 3, "tweet": "La programación puede ser divertida y emocionante. ¡No te rindas! #programación"}
+{"tweet_id": 6, "user": "usuario6", "followers": 400, "retweets": 0, "likes": 2, "tweet": "Zorro: un animal ágil y rápido. #naturaleza #zorro"}
+{"tweet_id": 7, "user": "usuario7", "followers": 600, "retweets": 12, "likes": 22, "tweet": "La zona de confort es un lugar agradable, pero nada crece allí. #motivación"}
+{"tweet_id": 8, "user": "usuario8", "followers": 50, "retweets": 1, "likes": 1, "tweet": "Zambullirse en nuevas experiencias es crucial. ¡Atrévete a salir! #experiencias"}
+{"tweet_id": 9, "user": "usuario9", "followers": 350, "retweets": 7, "likes": 15, "tweet": "Zapatillas nuevas para correr. ¡Listo para la maratón! #fitness"}
+{"tweet_id": 10, "user": "usuario10", "followers": 80, "retweets": 3, "likes": 5, "tweet": "Disfrutando de un buen libro. Siempre es un placer. #lectura"}

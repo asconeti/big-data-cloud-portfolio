@@ -1,0 +1,19 @@
+All Rights Reserved
+
+Copyright (c) 2026 Jordi Baiges Ferré
+
+This repository contains academic and portfolio materials created by the author.
+
+Permission is not granted to copy, modify, redistribute, publish, sublicense, or use the contents of this repository, in whole or in part, without prior written permission from the author.
+
+This includes, without limitation:
+- source code
+- notebooks
+- documentation
+- reports
+- datasets where redistribution is not explicitly allowed
+- derived works based on the materials contained in this repository
+
+The contents of this repository are provided for viewing and portfolio evaluation purposes only.
+
+For permission requests, please contact the author directly.
